@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn compile && next build",
+    "build": "yarn type-check && next build",
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --ignore-path .gitignore \"**/*.+(ts|tsx|js|css|json)\" --write --list-different --config prettier.config.js",
-    "compile": "tsc",
+    "type-check": "tsc",
     "start:test": "start-server-and-test 'yarn start' http://localhost:3000",
     "test": "yarn start:test 'cypress open'",
     "test:headless": "yarn start:test 'cypress run'"
