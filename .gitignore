@@ -32,3 +32,11 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# typescript cache files
+*.tsbuildinfo
+
+# design files
+*.fig
+*.sketch
+
