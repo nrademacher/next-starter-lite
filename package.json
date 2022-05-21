@@ -14,25 +14,25 @@
     "test:headless": "yarn start:test 'cypress run'"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   },
   "devDependencies": {
     "@testing-library/cypress": "^8.0.2",
-    "@types/react": "latest",
-    "@typescript-eslint/parser": "^5.8.1",
-    "autoprefixer": "^10.4.0",
-    "cypress": "^9.2.0",
-    "eslint": "^8.5.0",
-    "eslint-config-next": "latest",
-    "eslint-config-prettier": "^8.3.0",
+    "@types/react": "18.0.9",
+    "@typescript-eslint/parser": "^5.25.0",
+    "autoprefixer": "^10.4.7",
+    "cypress": "^9.6.1",
+    "eslint": "^8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.0.0",
-    "postcss": "^8.4.5",
-    "prettier": "^2.5.1",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
     "start-server-and-test": "^1.14.0",
-    "tailwindcss": "^3.0.6",
-    "typescript": "^4.5.4"
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.4"
   }
 }
