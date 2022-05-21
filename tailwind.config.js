@@ -7,4 +7,5 @@ module.exports = {
   variants: {
     extend: {},
   },
+  plugins: [require('prettier-plugin-tailwindcss')],
 }
